@@ -1,0 +1,12 @@
+/* TEAM */
+	Principal:Joshua Powell
+	Contact: joshua [at] developedsimiple.com
+	Twitter: @joshuapowell
+	Google: https://profiles.google.com/joshuaisaacpowell
+	From:East Liberty, Pittsburgh, Pennsylvania
+
+/* SITE */
+	Last update:2011/12/12
+	Language:English
+	Doctype:HTML5
+	IDE:Coda, Transmit, GIT, Photoshop

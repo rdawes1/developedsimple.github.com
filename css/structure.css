@@ -1,0 +1,30 @@
+/**
+ * Sitewide Structure & Layout
+ *
+ * These styles define the generic layout of the page and 
+ * lay a foundation for the rest of the site to build off
+ * of. Thus developing a consistent look and feel through-
+ * out the entire website.
+ *
+ */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.container {
+  display: block;
+  margin: 0 auto;
+  width: 950px;
+}
+.column {
+  float: left;
+  margin-right: 10px;
+  width: 310px;
+}
+.column.half {
+  width: 150px;
+}
+.column.last {
+  margin-right: 0;
+}

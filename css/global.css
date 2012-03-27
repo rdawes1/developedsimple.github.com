@@ -1,0 +1,209 @@
+/* GENERIC
+============================================================ */
+body{
+  background-color: rgb(245,245,245);
+  color: rgb(34,34,34);
+  font-family: "calluna-1", "calluna-2", Georgia, serif;
+  margin: 0 auto;
+  padding: 0;
+  width: 960px;
+}
+
+
+/* LAYOUT
+============================================================ */
+#header {
+  float: left;
+  width: 100%;
+}
+
+#logo {
+  background:url(../images/logo-developedsimple-igloo.png) no-repeat scroll left top transparent;
+  border-bottom: 1px solid rgb(221,221,221);
+  float:left;
+  height:76px;
+  margin:40px 0px 0px;
+  padding:0px 0px 50px;
+  text-decoration:none;
+  text-indent:-999999px;
+  width: 100%;
+}
+
+#content {
+  float: left;
+  margin: 22px 0 0;
+  padding: 0;
+  width: 100%;
+}
+
+#footer {
+  float: left;
+  padding-bottom: 60px;
+  width: 100%;
+}
+  #footer .column {
+    border-top: 1px solid rgb(221,221,221);
+    float: left;
+    margin:22px 12px 22px 0;
+    padding:22px 0 0 14px;
+    width: 217px;
+  }
+    #footer .column-title {
+      font-family:Helvetica,sans-serif;
+      font-size: 11px;
+	  font-weight: bold;
+      line-height: 22px;
+	  margin-bottom: 0;
+      text-transform:uppercase;
+    }
+    #footer .column p {
+      color: rgb(0,0,0);
+      font-size:14px;
+      line-height:20px;
+      margin: 4px 0;
+    }
+    #footer .column ul {
+      margin: 4px 0;
+      padding-left: 16px;
+    }
+    #footer .column li {
+      color: rgb(0,0,0);
+      font-size:14px;
+      line-height:16px;
+      list-style: square;
+      padding-bottom: 4px;
+    }
+    #footer .column.last {
+      margin:22px 0;
+    }
+
+
+/* TYPOGRAPHY
+============================================================ */
+h1, h2, h3, h4, h5, h6, p {
+  font-weight: normal;
+  margin: 0 0 15px;
+  padding: 0;
+}
+
+
+h1{
+  font-size: 56px;
+}
+
+h2{
+  font-size: 28px;
+  line-height: 42px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+h6 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+li {
+  font-size: 16px;
+  line-height: 22px;
+  list-style: square;
+  padding-bottom: 5px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+h1 a, h2 a,
+a, a:active, a:link, a:visited {
+  background-color: rgb(255,251,178);
+  color: rgb(0,0,0);
+  text-decoration: none;
+}
+a:hover {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+/* ALTERNATIVE LAYOUTS
+============================================================ */
+
+  /* TABLET
+  ========================================================== */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+  	body {
+  		width: 712px;
+  	}
+  	
+    #logo {
+      background:url(../images/logo-developedsimple-igloo-712px.png) no-repeat scroll left top transparent;
+      margin: 28px 0 0;
+      padding: 0 0 10px;
+    }
+
+  	#footer .column {
+  		width: 322px;
+  	}
+  }
+
+  /* SMARTPHONE NARROW
+  ========================================================== */
+  @media only screen and (max-width: 767px) {
+  	body {
+  		width: 252px;
+  	}
+
+    #logo {
+      background:url(../images/logo-developedsimple-igloo-252px.png) no-repeat scroll left top transparent;
+      height: 36px;
+      margin: 18px 0 0;
+      padding: 0;
+    }
+
+  	#footer .column {
+      width: 252px;
+  	}
+  }
+
+  /* SMARTPHONE WIDE
+  ========================================================== */
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+  	body {
+  		width: 436px;
+  	}
+
+    #logo {
+      background:url(../images/logo-developedsimple-igloo-436px.png) no-repeat scroll left top transparent;
+      height: 56px;
+      margin: 18px 0 0;
+      padding: 0;
+    }
+
+  	#footer .column {
+  		width: 186px;
+  	}
+  }
+
